@@ -22,7 +22,7 @@ class pinpadComponent extends LitElement {
     this.pin += number;
     this.requestUpdate();
   }
-
+ 
   clearDisplay() {
     this.pin = '';
     this.requestUpdate();
@@ -39,7 +39,7 @@ class pinpadComponent extends LitElement {
   
 setConfig(config) {
     if (!config.entity) {
-      throw new Error("You need to define an entity");
+      throw new Error("You need to define an entit");
     }
     this.config = config;
   }
